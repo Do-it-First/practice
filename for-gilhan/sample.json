@@ -1,116 +1,622 @@
 {
-	"월": [
+	"Naver": [
 		{
-			"제목": "참교육",
-			"썸네일": "https://shared-comic.pstatic.net/thumb/webtoon/758037/thumbnail/thumbnail_IMAG10_a2297504-4912-4c7e-a5a8-524d6fc77103.jpg",
-			"링크": "/webtoon/list?titleId=758037&weekday=mon",
-			"소개글": "안녕하세요 여기는 소개글 자리입니다.",
-			"작가": "채용택 / 한가람",
-			"장르": "스토리, 액션",
-			"나이": "15"
+			"mon": [
+				{
+					"from": "naver",
+					"title": "참교육",
+					"thumbnail": "https://shared-comic.pstatic.net/thumb/webtoon/758037/thumbnail/thumbnail_IMAG10_a2297504-4912-4c7e-a5a8-524d6fc77103.jpg",
+					"detail_link": "/webtoon/list?titleId=758037&weekday=mon",
+					"introduction": "안녕하세요 여기는 소개글 자리입니다.",
+					"writer": "채용택 / 한가람",
+					"genre": "스토리, 액션",
+					"age": "15"
+				},
+				{
+					"from": "naver",
+					"title": "참교육",
+					"thumbnail": "https://shared-comic.pstatic.net/thumb/webtoon/758037/thumbnail/thumbnail_IMAG10_a2297504-4912-4c7e-a5a8-524d6fc77103.jpg",
+					"detail_link": "/webtoon/list?titleId=758037&weekday=mon",
+					"introduction": "안녕하세요 여기는 소개글 자리입니다.",
+					"writer": "채용택 / 한가람",
+					"genre": "스토리, 액션",
+					"age": "15"
+				},
+				{
+					"from": "naver",
+					"title": "참교육",
+					"thumbnail": "https://shared-comic.pstatic.net/thumb/webtoon/758037/thumbnail/thumbnail_IMAG10_a2297504-4912-4c7e-a5a8-524d6fc77103.jpg",
+					"detail_link": "/webtoon/list?titleId=758037&weekday=mon",
+					"introduction": "안녕하세요 여기는 소개글 자리입니다.",
+					"writer": "채용택 / 한가람",
+					"genre": "스토리, 액션",
+					"age": "15"
+				},
+				{
+					"from": "naver",
+					"title": "참교육",
+					"thumbnail": "https://shared-comic.pstatic.net/thumb/webtoon/758037/thumbnail/thumbnail_IMAG10_a2297504-4912-4c7e-a5a8-524d6fc77103.jpg",
+					"detail_link": "/webtoon/list?titleId=758037&weekday=mon",
+					"introduction": "안녕하세요 여기는 소개글 자리입니다.",
+					"writer": "채용택 / 한가람",
+					"genre": "스토리, 액션",
+					"age": "15"
+				}
+			]
 		},
 		{
-			"제목": "참교육",
-			"썸네일": "https://shared-comic.pstatic.net/thumb/webtoon/758037/thumbnail/thumbnail_IMAG10_a2297504-4912-4c7e-a5a8-524d6fc77103.jpg",
-			"링크": "/webtoon/list?titleId=758037&weekday=mon",
-			"소개글": "안녕하세요 여기는 소개글 자리입니다.",
-			"작가": "채용택 / 한가람",
-			"장르": "스토리, 액션",
-			"나이": "15"
+			"tue": [
+				{
+					"from": "naver",
+					"title": "참교육",
+					"thumbnail": "https://shared-comic.pstatic.net/thumb/webtoon/758037/thumbnail/thumbnail_IMAG10_a2297504-4912-4c7e-a5a8-524d6fc77103.jpg",
+					"detail_link": "/webtoon/list?titleId=758037&weekday=mon",
+					"introduction": "안녕하세요 여기는 소개글 자리입니다.",
+					"writer": "채용택 / 한가람",
+					"genre": "스토리, 액션",
+					"age": "15"
+				},
+				{
+					"from": "naver",
+					"title": "참교육",
+					"thumbnail": "https://shared-comic.pstatic.net/thumb/webtoon/758037/thumbnail/thumbnail_IMAG10_a2297504-4912-4c7e-a5a8-524d6fc77103.jpg",
+					"detail_link": "/webtoon/list?titleId=758037&weekday=mon",
+					"introduction": "안녕하세요 여기는 소개글 자리입니다.",
+					"writer": "채용택 / 한가람",
+					"genre": "스토리, 액션",
+					"age": "15"
+				},
+				{
+					"from": "naver",
+					"title": "참교육",
+					"thumbnail": "https://shared-comic.pstatic.net/thumb/webtoon/758037/thumbnail/thumbnail_IMAG10_a2297504-4912-4c7e-a5a8-524d6fc77103.jpg",
+					"detail_link": "/webtoon/list?titleId=758037&weekday=mon",
+					"introduction": "안녕하세요 여기는 소개글 자리입니다.",
+					"writer": "채용택 / 한가람",
+					"genre": "스토리, 액션",
+					"age": "15"
+				},
+				{
+					"from": "naver",
+					"title": "참교육",
+					"thumbnail": "https://shared-comic.pstatic.net/thumb/webtoon/758037/thumbnail/thumbnail_IMAG10_a2297504-4912-4c7e-a5a8-524d6fc77103.jpg",
+					"detail_link": "/webtoon/list?titleId=758037&weekday=mon",
+					"introduction": "안녕하세요 여기는 소개글 자리입니다.",
+					"writer": "채용택 / 한가람",
+					"genre": "스토리, 액션",
+					"age": "15"
+				}
+			]
 		},
 		{
-			"제목": "참교육",
-			"썸네일": "https://shared-comic.pstatic.net/thumb/webtoon/758037/thumbnail/thumbnail_IMAG10_a2297504-4912-4c7e-a5a8-524d6fc77103.jpg",
-			"링크": "/webtoon/list?titleId=758037&weekday=mon",
-			"소개글": "안녕하세요 여기는 소개글 자리입니다.",
-			"작가": "채용택 / 한가람",
-			"장르": "스토리, 액션",
-			"나이": "15"
+			"wed": [
+				{
+					"from": "naver",
+					"title": "참교육",
+					"thumbnail": "https://shared-comic.pstatic.net/thumb/webtoon/758037/thumbnail/thumbnail_IMAG10_a2297504-4912-4c7e-a5a8-524d6fc77103.jpg",
+					"detail_link": "/webtoon/list?titleId=758037&weekday=mon",
+					"introduction": "안녕하세요 여기는 소개글 자리입니다.",
+					"writer": "채용택 / 한가람",
+					"genre": "스토리, 액션",
+					"age": "15"
+				},
+				{
+					"from": "naver",
+					"title": "참교육",
+					"thumbnail": "https://shared-comic.pstatic.net/thumb/webtoon/758037/thumbnail/thumbnail_IMAG10_a2297504-4912-4c7e-a5a8-524d6fc77103.jpg",
+					"detail_link": "/webtoon/list?titleId=758037&weekday=mon",
+					"introduction": "안녕하세요 여기는 소개글 자리입니다.",
+					"writer": "채용택 / 한가람",
+					"genre": "스토리, 액션",
+					"age": "15"
+				},
+				{
+					"from": "naver",
+					"title": "참교육",
+					"thumbnail": "https://shared-comic.pstatic.net/thumb/webtoon/758037/thumbnail/thumbnail_IMAG10_a2297504-4912-4c7e-a5a8-524d6fc77103.jpg",
+					"detail_link": "/webtoon/list?titleId=758037&weekday=mon",
+					"introduction": "안녕하세요 여기는 소개글 자리입니다.",
+					"writer": "채용택 / 한가람",
+					"genre": "스토리, 액션",
+					"age": "15"
+				},
+				{
+					"from": "naver",
+					"title": "참교육",
+					"thumbnail": "https://shared-comic.pstatic.net/thumb/webtoon/758037/thumbnail/thumbnail_IMAG10_a2297504-4912-4c7e-a5a8-524d6fc77103.jpg",
+					"detail_link": "/webtoon/list?titleId=758037&weekday=mon",
+					"introduction": "안녕하세요 여기는 소개글 자리입니다.",
+					"writer": "채용택 / 한가람",
+					"genre": "스토리, 액션",
+					"age": "15"
+				}
+			]
 		},
 		{
-			"제목": "참교육",
-			"썸네일": "https://shared-comic.pstatic.net/thumb/webtoon/758037/thumbnail/thumbnail_IMAG10_a2297504-4912-4c7e-a5a8-524d6fc77103.jpg",
-			"링크": "/webtoon/list?titleId=758037&weekday=mon",
-			"소개글": "안녕하세요 여기는 소개글 자리입니다.",
-			"작가": "채용택 / 한가람",
-			"장르": "스토리, 액션",
-			"나이": "15"
+			"thu": [
+				{
+					"from": "naver",
+					"title": "참교육",
+					"thumbnail": "https://shared-comic.pstatic.net/thumb/webtoon/758037/thumbnail/thumbnail_IMAG10_a2297504-4912-4c7e-a5a8-524d6fc77103.jpg",
+					"detail_link": "/webtoon/list?titleId=758037&weekday=mon",
+					"introduction": "안녕하세요 여기는 소개글 자리입니다.",
+					"writer": "채용택 / 한가람",
+					"genre": "스토리, 액션",
+					"age": "15"
+				},
+				{
+					"from": "naver",
+					"title": "참교육",
+					"thumbnail": "https://shared-comic.pstatic.net/thumb/webtoon/758037/thumbnail/thumbnail_IMAG10_a2297504-4912-4c7e-a5a8-524d6fc77103.jpg",
+					"detail_link": "/webtoon/list?titleId=758037&weekday=mon",
+					"introduction": "안녕하세요 여기는 소개글 자리입니다.",
+					"writer": "채용택 / 한가람",
+					"genre": "스토리, 액션",
+					"age": "15"
+				},
+				{
+					"from": "naver",
+					"title": "참교육",
+					"thumbnail": "https://shared-comic.pstatic.net/thumb/webtoon/758037/thumbnail/thumbnail_IMAG10_a2297504-4912-4c7e-a5a8-524d6fc77103.jpg",
+					"detail_link": "/webtoon/list?titleId=758037&weekday=mon",
+					"introduction": "안녕하세요 여기는 소개글 자리입니다.",
+					"writer": "채용택 / 한가람",
+					"genre": "스토리, 액션",
+					"age": "15"
+				},
+				{
+					"from": "naver",
+					"title": "참교육",
+					"thumbnail": "https://shared-comic.pstatic.net/thumb/webtoon/758037/thumbnail/thumbnail_IMAG10_a2297504-4912-4c7e-a5a8-524d6fc77103.jpg",
+					"detail_link": "/webtoon/list?titleId=758037&weekday=mon",
+					"introduction": "안녕하세요 여기는 소개글 자리입니다.",
+					"writer": "채용택 / 한가람",
+					"genre": "스토리, 액션",
+					"age": "15"
+				}
+			]
+		},
+		{
+			"fri": [
+				{
+					"from": "naver",
+					"title": "참교육",
+					"thumbnail": "https://shared-comic.pstatic.net/thumb/webtoon/758037/thumbnail/thumbnail_IMAG10_a2297504-4912-4c7e-a5a8-524d6fc77103.jpg",
+					"detail_link": "/webtoon/list?titleId=758037&weekday=mon",
+					"introduction": "안녕하세요 여기는 소개글 자리입니다.",
+					"writer": "채용택 / 한가람",
+					"genre": "스토리, 액션",
+					"age": "15"
+				},
+				{
+					"from": "naver",
+					"title": "참교육",
+					"thumbnail": "https://shared-comic.pstatic.net/thumb/webtoon/758037/thumbnail/thumbnail_IMAG10_a2297504-4912-4c7e-a5a8-524d6fc77103.jpg",
+					"detail_link": "/webtoon/list?titleId=758037&weekday=mon",
+					"introduction": "안녕하세요 여기는 소개글 자리입니다.",
+					"writer": "채용택 / 한가람",
+					"genre": "스토리, 액션",
+					"age": "15"
+				},
+				{
+					"from": "naver",
+					"title": "참교육",
+					"thumbnail": "https://shared-comic.pstatic.net/thumb/webtoon/758037/thumbnail/thumbnail_IMAG10_a2297504-4912-4c7e-a5a8-524d6fc77103.jpg",
+					"detail_link": "/webtoon/list?titleId=758037&weekday=mon",
+					"introduction": "안녕하세요 여기는 소개글 자리입니다.",
+					"writer": "채용택 / 한가람",
+					"genre": "스토리, 액션",
+					"age": "15"
+				},
+				{
+					"from": "naver",
+					"title": "참교육",
+					"thumbnail": "https://shared-comic.pstatic.net/thumb/webtoon/758037/thumbnail/thumbnail_IMAG10_a2297504-4912-4c7e-a5a8-524d6fc77103.jpg",
+					"detail_link": "/webtoon/list?titleId=758037&weekday=mon",
+					"introduction": "안녕하세요 여기는 소개글 자리입니다.",
+					"writer": "채용택 / 한가람",
+					"genre": "스토리, 액션",
+					"age": "15"
+				}
+			]
+		},
+		{
+			"sat": [
+				{
+					"from": "naver",
+					"title": "참교육",
+					"thumbnail": "https://shared-comic.pstatic.net/thumb/webtoon/758037/thumbnail/thumbnail_IMAG10_a2297504-4912-4c7e-a5a8-524d6fc77103.jpg",
+					"detail_link": "/webtoon/list?titleId=758037&weekday=mon",
+					"introduction": "안녕하세요 여기는 소개글 자리입니다.",
+					"writer": "채용택 / 한가람",
+					"genre": "스토리, 액션",
+					"age": "15"
+				},
+				{
+					"from": "naver",
+					"title": "참교육",
+					"thumbnail": "https://shared-comic.pstatic.net/thumb/webtoon/758037/thumbnail/thumbnail_IMAG10_a2297504-4912-4c7e-a5a8-524d6fc77103.jpg",
+					"detail_link": "/webtoon/list?titleId=758037&weekday=mon",
+					"introduction": "안녕하세요 여기는 소개글 자리입니다.",
+					"writer": "채용택 / 한가람",
+					"genre": "스토리, 액션",
+					"age": "15"
+				},
+				{
+					"from": "naver",
+					"title": "참교육",
+					"thumbnail": "https://shared-comic.pstatic.net/thumb/webtoon/758037/thumbnail/thumbnail_IMAG10_a2297504-4912-4c7e-a5a8-524d6fc77103.jpg",
+					"detail_link": "/webtoon/list?titleId=758037&weekday=mon",
+					"introduction": "안녕하세요 여기는 소개글 자리입니다.",
+					"writer": "채용택 / 한가람",
+					"genre": "스토리, 액션",
+					"age": "15"
+				},
+				{
+					"from": "naver",
+					"title": "참교육",
+					"thumbnail": "https://shared-comic.pstatic.net/thumb/webtoon/758037/thumbnail/thumbnail_IMAG10_a2297504-4912-4c7e-a5a8-524d6fc77103.jpg",
+					"detail_link": "/webtoon/list?titleId=758037&weekday=mon",
+					"introduction": "안녕하세요 여기는 소개글 자리입니다.",
+					"writer": "채용택 / 한가람",
+					"genre": "스토리, 액션",
+					"age": "15"
+				}
+			]
+		},
+		{
+			"sun": [
+				{
+					"from": "naver",
+					"title": "참교육",
+					"thumbnail": "https://shared-comic.pstatic.net/thumb/webtoon/758037/thumbnail/thumbnail_IMAG10_a2297504-4912-4c7e-a5a8-524d6fc77103.jpg",
+					"detail_link": "/webtoon/list?titleId=758037&weekday=mon",
+					"introduction": "안녕하세요 여기는 소개글 자리입니다.",
+					"writer": "채용택 / 한가람",
+					"genre": "스토리, 액션",
+					"age": "15"
+				},
+				{
+					"from": "naver",
+					"title": "참교육",
+					"thumbnail": "https://shared-comic.pstatic.net/thumb/webtoon/758037/thumbnail/thumbnail_IMAG10_a2297504-4912-4c7e-a5a8-524d6fc77103.jpg",
+					"detail_link": "/webtoon/list?titleId=758037&weekday=mon",
+					"introduction": "안녕하세요 여기는 소개글 자리입니다.",
+					"writer": "채용택 / 한가람",
+					"genre": "스토리, 액션",
+					"age": "15"
+				},
+				{
+					"from": "naver",
+					"title": "참교육",
+					"thumbnail": "https://shared-comic.pstatic.net/thumb/webtoon/758037/thumbnail/thumbnail_IMAG10_a2297504-4912-4c7e-a5a8-524d6fc77103.jpg",
+					"detail_link": "/webtoon/list?titleId=758037&weekday=mon",
+					"introduction": "안녕하세요 여기는 소개글 자리입니다.",
+					"writer": "채용택 / 한가람",
+					"genre": "스토리, 액션",
+					"age": "15"
+				},
+				{
+					"from": "naver",
+					"title": "참교육",
+					"thumbnail": "https://shared-comic.pstatic.net/thumb/webtoon/758037/thumbnail/thumbnail_IMAG10_a2297504-4912-4c7e-a5a8-524d6fc77103.jpg",
+					"detail_link": "/webtoon/list?titleId=758037&weekday=mon",
+					"introduction": "안녕하세요 여기는 소개글 자리입니다.",
+					"writer": "채용택 / 한가람",
+					"genre": "스토리, 액션",
+					"age": "15"
+				}
+			]
 		}
 	],
-	"화": [
+	"Daum": [
 		{
-			"제목": "참교육",
-			"썸네일": "https://shared-comic.pstatic.net/thumb/webtoon/758037/thumbnail/thumbnail_IMAG10_a2297504-4912-4c7e-a5a8-524d6fc77103.jpg",
-			"링크": "/webtoon/list?titleId=758037&weekday=mon",
-			"소개글": "안녕하세요 여기는 소개글 자리입니다.",
-			"작가": "채용택 / 한가람",
-			"장르": "스토리, 액션",
-			"나이": "15"
+			"mon": [
+				{
+					"from": "daum",
+					"title": "참교육",
+					"thumbnail": "https://shared-comic.pstatic.net/thumb/webtoon/758037/thumbnail/thumbnail_IMAG10_a2297504-4912-4c7e-a5a8-524d6fc77103.jpg",
+					"detail_link": "/webtoon/list?titleId=758037&weekday=mon",
+					"introduction": "안녕하세요 여기는 소개글 자리입니다.",
+					"writer": "채용택 / 한가람",
+					"genre": "스토리, 액션",
+					"age": "15"
+				},
+				{
+					"from": "daum",
+					"title": "참교육",
+					"thumbnail": "https://shared-comic.pstatic.net/thumb/webtoon/758037/thumbnail/thumbnail_IMAG10_a2297504-4912-4c7e-a5a8-524d6fc77103.jpg",
+					"detail_link": "/webtoon/list?titleId=758037&weekday=mon",
+					"introduction": "안녕하세요 여기는 소개글 자리입니다.",
+					"writer": "채용택 / 한가람",
+					"genre": "스토리, 액션",
+					"age": "15"
+				},
+				{
+					"from": "daum",
+					"title": "참교육",
+					"thumbnail": "https://shared-comic.pstatic.net/thumb/webtoon/758037/thumbnail/thumbnail_IMAG10_a2297504-4912-4c7e-a5a8-524d6fc77103.jpg",
+					"detail_link": "/webtoon/list?titleId=758037&weekday=mon",
+					"introduction": "안녕하세요 여기는 소개글 자리입니다.",
+					"writer": "채용택 / 한가람",
+					"genre": "스토리, 액션",
+					"age": "15"
+				},
+				{
+					"from": "daum",
+					"title": "참교육",
+					"thumbnail": "https://shared-comic.pstatic.net/thumb/webtoon/758037/thumbnail/thumbnail_IMAG10_a2297504-4912-4c7e-a5a8-524d6fc77103.jpg",
+					"detail_link": "/webtoon/list?titleId=758037&weekday=mon",
+					"introduction": "안녕하세요 여기는 소개글 자리입니다.",
+					"writer": "채용택 / 한가람",
+					"genre": "스토리, 액션",
+					"age": "15"
+				}
+			]
 		},
 		{
-			"제목": "참교육",
-			"썸네일": "https://shared-comic.pstatic.net/thumb/webtoon/758037/thumbnail/thumbnail_IMAG10_a2297504-4912-4c7e-a5a8-524d6fc77103.jpg",
-			"링크": "/webtoon/list?titleId=758037&weekday=mon",
-			"소개글": "안녕하세요 여기는 소개글 자리입니다.",
-			"작가": "채용택 / 한가람",
-			"장르": "스토리, 액션",
-			"나이": "15"
+			"tue": [
+				{
+					"from": "daum",
+					"title": "참교육",
+					"thumbnail": "https://shared-comic.pstatic.net/thumb/webtoon/758037/thumbnail/thumbnail_IMAG10_a2297504-4912-4c7e-a5a8-524d6fc77103.jpg",
+					"detail_link": "/webtoon/list?titleId=758037&weekday=mon",
+					"introduction": "안녕하세요 여기는 소개글 자리입니다.",
+					"writer": "채용택 / 한가람",
+					"genre": "스토리, 액션",
+					"age": "15"
+				},
+				{
+					"from": "daum",
+					"title": "참교육",
+					"thumbnail": "https://shared-comic.pstatic.net/thumb/webtoon/758037/thumbnail/thumbnail_IMAG10_a2297504-4912-4c7e-a5a8-524d6fc77103.jpg",
+					"detail_link": "/webtoon/list?titleId=758037&weekday=mon",
+					"introduction": "안녕하세요 여기는 소개글 자리입니다.",
+					"writer": "채용택 / 한가람",
+					"genre": "스토리, 액션",
+					"age": "15"
+				},
+				{
+					"from": "daum",
+					"title": "참교육",
+					"thumbnail": "https://shared-comic.pstatic.net/thumb/webtoon/758037/thumbnail/thumbnail_IMAG10_a2297504-4912-4c7e-a5a8-524d6fc77103.jpg",
+					"detail_link": "/webtoon/list?titleId=758037&weekday=mon",
+					"introduction": "안녕하세요 여기는 소개글 자리입니다.",
+					"writer": "채용택 / 한가람",
+					"genre": "스토리, 액션",
+					"age": "15"
+				},
+				{
+					"from": "daum",
+					"title": "참교육",
+					"thumbnail": "https://shared-comic.pstatic.net/thumb/webtoon/758037/thumbnail/thumbnail_IMAG10_a2297504-4912-4c7e-a5a8-524d6fc77103.jpg",
+					"detail_link": "/webtoon/list?titleId=758037&weekday=mon",
+					"introduction": "안녕하세요 여기는 소개글 자리입니다.",
+					"writer": "채용택 / 한가람",
+					"genre": "스토리, 액션",
+					"age": "15"
+				}
+			]
 		},
 		{
-			"제목": "참교육",
-			"썸네일": "https://shared-comic.pstatic.net/thumb/webtoon/758037/thumbnail/thumbnail_IMAG10_a2297504-4912-4c7e-a5a8-524d6fc77103.jpg",
-			"링크": "/webtoon/list?titleId=758037&weekday=mon",
-			"소개글": "안녕하세요 여기는 소개글 자리입니다.",
-			"작가": "채용택 / 한가람",
-			"장르": "스토리, 액션",
-			"나이": "15"
+			"wed": [
+				{
+					"from": "daum",
+					"title": "참교육",
+					"thumbnail": "https://shared-comic.pstatic.net/thumb/webtoon/758037/thumbnail/thumbnail_IMAG10_a2297504-4912-4c7e-a5a8-524d6fc77103.jpg",
+					"detail_link": "/webtoon/list?titleId=758037&weekday=mon",
+					"introduction": "안녕하세요 여기는 소개글 자리입니다.",
+					"writer": "채용택 / 한가람",
+					"genre": "스토리, 액션",
+					"age": "15"
+				},
+				{
+					"from": "daum",
+					"title": "참교육",
+					"thumbnail": "https://shared-comic.pstatic.net/thumb/webtoon/758037/thumbnail/thumbnail_IMAG10_a2297504-4912-4c7e-a5a8-524d6fc77103.jpg",
+					"detail_link": "/webtoon/list?titleId=758037&weekday=mon",
+					"introduction": "안녕하세요 여기는 소개글 자리입니다.",
+					"writer": "채용택 / 한가람",
+					"genre": "스토리, 액션",
+					"age": "15"
+				},
+				{
+					"from": "daum",
+					"title": "참교육",
+					"thumbnail": "https://shared-comic.pstatic.net/thumb/webtoon/758037/thumbnail/thumbnail_IMAG10_a2297504-4912-4c7e-a5a8-524d6fc77103.jpg",
+					"detail_link": "/webtoon/list?titleId=758037&weekday=mon",
+					"introduction": "안녕하세요 여기는 소개글 자리입니다.",
+					"writer": "채용택 / 한가람",
+					"genre": "스토리, 액션",
+					"age": "15"
+				},
+				{
+					"from": "daum",
+					"title": "참교육",
+					"thumbnail": "https://shared-comic.pstatic.net/thumb/webtoon/758037/thumbnail/thumbnail_IMAG10_a2297504-4912-4c7e-a5a8-524d6fc77103.jpg",
+					"detail_link": "/webtoon/list?titleId=758037&weekday=mon",
+					"introduction": "안녕하세요 여기는 소개글 자리입니다.",
+					"writer": "채용택 / 한가람",
+					"genre": "스토리, 액션",
+					"age": "15"
+				}
+			]
 		},
 		{
-			"제목": "참교육",
-			"썸네일": "https://shared-comic.pstatic.net/thumb/webtoon/758037/thumbnail/thumbnail_IMAG10_a2297504-4912-4c7e-a5a8-524d6fc77103.jpg",
-			"링크": "/webtoon/list?titleId=758037&weekday=mon",
-			"소개글": "안녕하세요 여기는 소개글 자리입니다.",
-			"작가": "채용택 / 한가람",
-			"장르": "스토리, 액션",
-			"나이": "15"
-		}
-	],
-	"수": [
-		{
-			"제목": "참교육",
-			"썸네일": "https://shared-comic.pstatic.net/thumb/webtoon/758037/thumbnail/thumbnail_IMAG10_a2297504-4912-4c7e-a5a8-524d6fc77103.jpg",
-			"링크": "/webtoon/list?titleId=758037&weekday=mon",
-			"소개글": "안녕하세요 여기는 소개글 자리입니다.",
-			"작가": "채용택 / 한가람",
-			"장르": "스토리, 액션",
-			"나이": "15"
+			"thu": [
+				{
+					"from": "daum",
+					"title": "참교육",
+					"thumbnail": "https://shared-comic.pstatic.net/thumb/webtoon/758037/thumbnail/thumbnail_IMAG10_a2297504-4912-4c7e-a5a8-524d6fc77103.jpg",
+					"detail_link": "/webtoon/list?titleId=758037&weekday=mon",
+					"introduction": "안녕하세요 여기는 소개글 자리입니다.",
+					"writer": "채용택 / 한가람",
+					"genre": "스토리, 액션",
+					"age": "15"
+				},
+				{
+					"from": "daum",
+					"title": "참교육",
+					"thumbnail": "https://shared-comic.pstatic.net/thumb/webtoon/758037/thumbnail/thumbnail_IMAG10_a2297504-4912-4c7e-a5a8-524d6fc77103.jpg",
+					"detail_link": "/webtoon/list?titleId=758037&weekday=mon",
+					"introduction": "안녕하세요 여기는 소개글 자리입니다.",
+					"writer": "채용택 / 한가람",
+					"genre": "스토리, 액션",
+					"age": "15"
+				},
+				{
+					"from": "daum",
+					"title": "참교육",
+					"thumbnail": "https://shared-comic.pstatic.net/thumb/webtoon/758037/thumbnail/thumbnail_IMAG10_a2297504-4912-4c7e-a5a8-524d6fc77103.jpg",
+					"detail_link": "/webtoon/list?titleId=758037&weekday=mon",
+					"introduction": "안녕하세요 여기는 소개글 자리입니다.",
+					"writer": "채용택 / 한가람",
+					"genre": "스토리, 액션",
+					"age": "15"
+				},
+				{
+					"from": "daum",
+					"title": "참교육",
+					"thumbnail": "https://shared-comic.pstatic.net/thumb/webtoon/758037/thumbnail/thumbnail_IMAG10_a2297504-4912-4c7e-a5a8-524d6fc77103.jpg",
+					"detail_link": "/webtoon/list?titleId=758037&weekday=mon",
+					"introduction": "안녕하세요 여기는 소개글 자리입니다.",
+					"writer": "채용택 / 한가람",
+					"genre": "스토리, 액션",
+					"age": "15"
+				}
+			]
 		},
 		{
-			"제목": "참교육",
-			"썸네일": "https://shared-comic.pstatic.net/thumb/webtoon/758037/thumbnail/thumbnail_IMAG10_a2297504-4912-4c7e-a5a8-524d6fc77103.jpg",
-			"링크": "/webtoon/list?titleId=758037&weekday=mon",
-			"소개글": "안녕하세요 여기는 소개글 자리입니다.",
-			"작가": "채용택 / 한가람",
-			"장르": "스토리, 액션",
-			"나이": "15"
+			"fri": [
+				{
+					"from": "daum",
+					"title": "참교육",
+					"thumbnail": "https://shared-comic.pstatic.net/thumb/webtoon/758037/thumbnail/thumbnail_IMAG10_a2297504-4912-4c7e-a5a8-524d6fc77103.jpg",
+					"detail_link": "/webtoon/list?titleId=758037&weekday=mon",
+					"introduction": "안녕하세요 여기는 소개글 자리입니다.",
+					"writer": "채용택 / 한가람",
+					"genre": "스토리, 액션",
+					"age": "15"
+				},
+				{
+					"from": "daum",
+					"title": "참교육",
+					"thumbnail": "https://shared-comic.pstatic.net/thumb/webtoon/758037/thumbnail/thumbnail_IMAG10_a2297504-4912-4c7e-a5a8-524d6fc77103.jpg",
+					"detail_link": "/webtoon/list?titleId=758037&weekday=mon",
+					"introduction": "안녕하세요 여기는 소개글 자리입니다.",
+					"writer": "채용택 / 한가람",
+					"genre": "스토리, 액션",
+					"age": "15"
+				},
+				{
+					"from": "daum",
+					"title": "참교육",
+					"thumbnail": "https://shared-comic.pstatic.net/thumb/webtoon/758037/thumbnail/thumbnail_IMAG10_a2297504-4912-4c7e-a5a8-524d6fc77103.jpg",
+					"detail_link": "/webtoon/list?titleId=758037&weekday=mon",
+					"introduction": "안녕하세요 여기는 소개글 자리입니다.",
+					"writer": "채용택 / 한가람",
+					"genre": "스토리, 액션",
+					"age": "15"
+				},
+				{
+					"from": "daum",
+					"title": "참교육",
+					"thumbnail": "https://shared-comic.pstatic.net/thumb/webtoon/758037/thumbnail/thumbnail_IMAG10_a2297504-4912-4c7e-a5a8-524d6fc77103.jpg",
+					"detail_link": "/webtoon/list?titleId=758037&weekday=mon",
+					"introduction": "안녕하세요 여기는 소개글 자리입니다.",
+					"writer": "채용택 / 한가람",
+					"genre": "스토리, 액션",
+					"age": "15"
+				}
+			]
 		},
 		{
-			"제목": "참교육",
-			"썸네일": "https://shared-comic.pstatic.net/thumb/webtoon/758037/thumbnail/thumbnail_IMAG10_a2297504-4912-4c7e-a5a8-524d6fc77103.jpg",
-			"링크": "/webtoon/list?titleId=758037&weekday=mon",
-			"소개글": "안녕하세요 여기는 소개글 자리입니다.",
-			"작가": "채용택 / 한가람",
-			"장르": "스토리, 액션",
-			"나이": "15"
+			"sat": [
+				{
+					"from": "daum",
+					"title": "참교육",
+					"thumbnail": "https://shared-comic.pstatic.net/thumb/webtoon/758037/thumbnail/thumbnail_IMAG10_a2297504-4912-4c7e-a5a8-524d6fc77103.jpg",
+					"detail_link": "/webtoon/list?titleId=758037&weekday=mon",
+					"introduction": "안녕하세요 여기는 소개글 자리입니다.",
+					"writer": "채용택 / 한가람",
+					"genre": "스토리, 액션",
+					"age": "15"
+				},
+				{
+					"from": "daum",
+					"title": "참교육",
+					"thumbnail": "https://shared-comic.pstatic.net/thumb/webtoon/758037/thumbnail/thumbnail_IMAG10_a2297504-4912-4c7e-a5a8-524d6fc77103.jpg",
+					"detail_link": "/webtoon/list?titleId=758037&weekday=mon",
+					"introduction": "안녕하세요 여기는 소개글 자리입니다.",
+					"writer": "채용택 / 한가람",
+					"genre": "스토리, 액션",
+					"age": "15"
+				},
+				{
+					"from": "daum",
+					"title": "참교육",
+					"thumbnail": "https://shared-comic.pstatic.net/thumb/webtoon/758037/thumbnail/thumbnail_IMAG10_a2297504-4912-4c7e-a5a8-524d6fc77103.jpg",
+					"detail_link": "/webtoon/list?titleId=758037&weekday=mon",
+					"introduction": "안녕하세요 여기는 소개글 자리입니다.",
+					"writer": "채용택 / 한가람",
+					"genre": "스토리, 액션",
+					"age": "15"
+				},
+				{
+					"from": "daum",
+					"title": "참교육",
+					"thumbnail": "https://shared-comic.pstatic.net/thumb/webtoon/758037/thumbnail/thumbnail_IMAG10_a2297504-4912-4c7e-a5a8-524d6fc77103.jpg",
+					"detail_link": "/webtoon/list?titleId=758037&weekday=mon",
+					"introduction": "안녕하세요 여기는 소개글 자리입니다.",
+					"writer": "채용택 / 한가람",
+					"genre": "스토리, 액션",
+					"age": "15"
+				}
+			]
 		},
 		{
-			"제목": "참교육",
-			"썸네일": "https://shared-comic.pstatic.net/thumb/webtoon/758037/thumbnail/thumbnail_IMAG10_a2297504-4912-4c7e-a5a8-524d6fc77103.jpg",
-			"링크": "/webtoon/list?titleId=758037&weekday=mon",
-			"소개글": "안녕하세요 여기는 소개글 자리입니다.",
-			"작가": "채용택 / 한가람",
-			"장르": "스토리, 액션",
-			"나이": "15"
+			"sun": [
+				{
+					"from": "daum",
+					"title": "참교육",
+					"thumbnail": "https://shared-comic.pstatic.net/thumb/webtoon/758037/thumbnail/thumbnail_IMAG10_a2297504-4912-4c7e-a5a8-524d6fc77103.jpg",
+					"detail_link": "/webtoon/list?titleId=758037&weekday=mon",
+					"introduction": "안녕하세요 여기는 소개글 자리입니다.",
+					"writer": "채용택 / 한가람",
+					"genre": "스토리, 액션",
+					"age": "15"
+				},
+				{
+					"from": "daum",
+					"title": "참교육",
+					"thumbnail": "https://shared-comic.pstatic.net/thumb/webtoon/758037/thumbnail/thumbnail_IMAG10_a2297504-4912-4c7e-a5a8-524d6fc77103.jpg",
+					"detail_link": "/webtoon/list?titleId=758037&weekday=mon",
+					"introduction": "안녕하세요 여기는 소개글 자리입니다.",
+					"writer": "채용택 / 한가람",
+					"genre": "스토리, 액션",
+					"age": "15"
+				},
+				{
+					"from": "daum",
+					"title": "참교육",
+					"thumbnail": "https://shared-comic.pstatic.net/thumb/webtoon/758037/thumbnail/thumbnail_IMAG10_a2297504-4912-4c7e-a5a8-524d6fc77103.jpg",
+					"detail_link": "/webtoon/list?titleId=758037&weekday=mon",
+					"introduction": "안녕하세요 여기는 소개글 자리입니다.",
+					"writer": "채용택 / 한가람",
+					"genre": "스토리, 액션",
+					"age": "15"
+				},
+				{
+					"from": "daum",
+					"title": "참교육",
+					"thumbnail": "https://shared-comic.pstatic.net/thumb/webtoon/758037/thumbnail/thumbnail_IMAG10_a2297504-4912-4c7e-a5a8-524d6fc77103.jpg",
+					"detail_link": "/webtoon/list?titleId=758037&weekday=mon",
+					"introduction": "안녕하세요 여기는 소개글 자리입니다.",
+					"writer": "채용택 / 한가람",
+					"genre": "스토리, 액션",
+					"age": "15"
+				}
+			]
 		}
 	]
 }
