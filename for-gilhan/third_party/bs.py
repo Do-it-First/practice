@@ -1,78 +1,66 @@
 import requests
 from bs4 import BeautifulSoup
 
-html_text = requests.get('https://comic.naver.com/webtoon/weekday')
+week = [
+	'mon',
+	'tue',
+	'wed',
+	'thu',
+	'fri',
+	'sat',
+	'sun',
+]
 
-html_text = html_text.text
+html = requests.get('https://comic.naver.com/webtoon/weekday')
+soup = BeautifulSoup(html.text, 'html.parser')
+doc = soup.prettify()
 
 with open('NW.html', 'w') as html_file:
-    html_file.write(html_text)
-
-html = html_text
-
-soup = BeautifulSoup(html, 'html.parser')
-
-"""
-my_titles = soup.select(
-		'content > div.list_area.daily_all > div > div > ul > li > div > a'
-    )
-
-print(my_titles)
-for title in my_titles:
-    ## Tag안의 텍스트
-    print(title.text)
-    ## Tag의 속성을 가져오기(ex: href속성)
-    print(title.get('href'))
-"""
-
-# print("html: ", type(html))
-# print("soup: ", type(soup))
-
+    html_file.write(doc)
 
 col_inners = soup.find_all('div', class_='col_inner')
 
-# print(col_inners)
+
 print(type(col_inners))
-
-# for tag in soup.find_all('a'):
-# 	print(tag.attrs)
-
-
-
 
 print("col_inners: ", type(col_inners))
 i = 0
 for col_inner in col_inners:
-	# try:
+		print("child:1 ", list(col_inner.children)[0])
+		print('!'*100)
+		print("child:2", list(col_inner.children)[1]) # @요 웹툰
+		print('!'*100)
+		print("child:3 ", list(col_inner.children)[2])
+		print('!'*100)
+		# print("child:4 ", list(col_inner.children)[3]) # ul
+		print("child: ", len(list(col_inner.children)[3])) # ul
+
+		for k in list(col_inner.children)[3]('a'):
+				if k.get('title') != None:
+					print('o'*80)
+					print(type(k))
+					print("title: ", k.get('title'))
+					print("link: ", 'https://comic.naver.com' + k.get('href'))
+				else:
+					print('!'*80)
+					print(type(k))
+					print("img: ", k.img['src'])
+					print(k)
+				print("^^"*30)
+
+
+		print('!'*100)
+		print("child:5 ", list(col_inner.children)[4])
+		print('!'*100)
 		
 		print("col_inner:", type(col_inner))
 
 		print("col_inner.h4: ", col_inner.h4.text) # @요 웹툰
 		i = i + 1
 		child = col_inner.descendants
-		print("type of child: ", type(child))
+		print("type of child: ", type(child)) # generator
 		# print("child: ", list(child))
 		print(i)
-		# print(input())
+		print(input())
+		print('*'*100)
 
-
-"""
-	except AttributeError:
-		print("*"*100)
-		pass
-	print("!"*200)
-"""
-
-
-# for tag in all_webtoons.children:
-# 		print("teg len: ", len(tag))
-# 		print("type: ", type(tag))
-# 		print(tag)
-# 		i = i + 1
-# 		print(i)
-# 		print("!"*200)
-
-# print(type(all_webtoons[0]))
-
-# 썸네일 path
-# content > div.list_area.daily_all > div:nth-child(1) > div > ul > li:nth-child(1) > div > a > img
