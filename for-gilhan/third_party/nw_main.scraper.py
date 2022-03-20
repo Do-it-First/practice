@@ -19,8 +19,8 @@ week = [
 	"sun",
 ]
 
-contxt_list = [
-	"from",
+info_keys = [
+	"weeks",
 	"title",
 	"thumbnail",
 	"detail_link",
@@ -30,114 +30,56 @@ contxt_list = [
 	"age"
 ]
 
-mon_data = OrderedDict()
-tue_data = OrderedDict()
-wed_data = OrderedDict()
-thu_data = OrderedDict()
-fri_data = OrderedDict()
-sat_data = OrderedDict()
-sun_data = OrderedDict()
-
-
-week_list = [
-	mon_data,
-	tue_data,
-	wed_data,
-	thu_data,
-	fri_data,
-	sat_data,
-	sun_data
-]
-
-webtoon_list = [
-	"Naver",
-	"Daum"
-]
-
-# file_data["Naver"] = []
-
-# for day in week:
-# 	file_data[day] = None
-
-# print('file_data:')
-# print(json.dumps(file_data, ensure_ascii=False, indent="\t"))
-i = 0
-
-products = []
-
-for j in range(50):
-	products.append("j")
-
-# 작품 여러개를 한 요일에 넣기 시작
-product_list = []
-for product in products:
-	i = i + 1
-	dict = OrderedDict()
-	print('총 로직 수: ', i)
-
-	# 작품 하나에 정보 넣기 시작
-	for info in contxt_list:
-		dict[info] = i
-
-		print("마지막 정보 1:", info)
-		print("마지막 정보 2:", contxt_list[-1])
-		print('~'*20)
-		if info == contxt_list[-1]:
-			# print(i)
-			print("dict: ", dict)
-			print("dict: ", type(dict))
-			a_prod = json.dumps(dict, ensure_ascii=False, indent="\t")
-			print("a_prod: ", a_prod)
-			print("a_prod: ", type(a_prod))
-
-			json_form = json.loads(a_prod)
-			print("json_form: ", json_form)
-			print("json_form: ", type(json_form))
-			product_list.append(json_form)
-			print("product_list: ", product_list)
-			print("product_list: ", type(product_list))
-			print('-'*30)
-			# print(a_prod.json())
-mon_data["mon"] = product_list
-a_prod = json.dumps(mon_data, ensure_ascii=False, indent="\t")
-
-			# product_list.append(a_prod)
-			# print(json.dumps(product_list, ensure_ascii=False, indent="\t"))
-
-		# print(dict)
-
-# print('week_list_data:')
-# print(json.dumps(week_list, ensure_ascii=False, indent="\t"))
-
-# mon_data["from"] = "naver"
-# mon_data["title"] = "참교육"
-# mon_data["thumbnail"] = "https://shared-comic.pstatic.net/thumb/webtoon/758037/thumbnail/thumbnail_IMAG10_a2297504-4912-4c7e-a5a8-524d6fc77103.jpg"
-# mon_data["detail_link"] = "/webtoon/list?titleId=758037&weekday=mon"
-# mon_data["introduction"] = "안녕하세요 여기는 소개글 자리입니다."
-# mon_data["writer"] = "채용택 / 한가람"
-# mon_data["genre"] = "스토리, 액션"
-# mon_data["age"] = "15"
-print(json.dumps(week_list, ensure_ascii=False, indent="\t"))
-
-# print(week_list)
-
-
-"""
-{
-	"Naver": [
-
-	]
+# data for practice
+information = {
+		"weeks" : "월",
+		"title" : "참교육",
+		"thumbnail" : "https://shared-comic.pstatic.net/thumb/webtoon/758037/thumbnail/thumbnail_IMAG10_a2297504-4912-4c7e-a5a8-524d6fc77103.jpg",
+		"detail_link" : "/webtoon/list?titleId=758037&weekday=mon",
+		"introduction" : "안녕하세요 여기는 소개글 자리입니다.",
+		"writer" : "채용택 / 한가람",
+		"genre" : "스토리, 액션",
+		"age" : "15"
 }
-"""
 
+# information = {
+# 		info_keys[0]: "월",
+# 		info_keys[1]: "참교육",
+# 		info_keys[2]: "https://shared-comic.pstatic.net/thumb/webtoon/758037/thumbnail/thumbnail_IMAG10_a2297504-4912-4c7e-a5a8-524d6fc77103.jpg",
+# 		info_keys[3]: "/webtoon/list?titleId=758037&weekday=mon",
+# 		info_keys[4]: "안녕하세요 여기는 소개글 자리입니다.",
+# 		info_keys[5]: "채용택 / 한가람",
+# 		info_keys[6]: "스토리, 액션",
+# 		info_keys[7]: "15"
+# }
 
-# for day in week:
-# 	file_data[day] = []
+def save_one_wt(information):
+		webtoon = OrderedDict()
+		for info in info_keys:
+				webtoon[info] = information[info]
+		return webtoon # => orderedDict
 
-print(file_data)
+def save_prod_list():
 
+		prod_list = []
+		for prod in range(3):
 
+				saved_prod = save_one_wt(information)
+				prod_list.append(saved_prod)
+		processed_prod_list = json.dumps(prod_list, ensure_ascii=False, indent="\t")
+		print("processed_prod_list:", processed_prod_list)
+		# print('='*80)
+		return processed_prod_list
 
+def save_naver_wt():
+		webtoon = OrderedDict()
+		webtoon['Naver'] = json.loads(save_prod_list())
+		webtoon = json.dumps(webtoon, ensure_ascii=False, indent="\t")
+		return webtoon
+
+print("here: ", save_naver_wt())
+
+# a_prod = json.dumps(dict, ensure_ascii=False, indent="\t")
 
 
 html = requests.get('https://comic.naver.com/webtoon/weekday')
@@ -152,19 +94,52 @@ i = 0
 n = 0
 d = week[n]
 
+detail_of_nw_list = []
 
-
+# wt_list = []
 for col_inner in col_inners:
 		print("child:2", list(col_inner.children)[1]) # @요 웹툰
 		day = list(col_inner.children)[1].text
 		for k in list(col_inner.children)[3]('a'):
+				# wt_info = OrderedDict() # 초기화
 				i = i + 1
 				if k.get('title') != None:
 						title = k.get('title')
 						link = 'https://comic.naver.com' + k.get('href')
+						detail_of_nw_list.append(link)
+						# wt_info['title'] = title
+						# wt_info['link'] = link
+
 				else:
 						thumbnail = k.img['src']
+						# wt_info['thumbnail'] = thumbnail
+				# wt_list.append(wt_info)
+				# json.dumps(wt_info, ensure_ascii=False, indent="\t")
 		print(week[n], ":", i/2, "개")
+		# print(wt_info)
+		# json.loads(wt_info)
 		i = 0
 		n = n + 1
 
+
+# def detail_links_save(filename, link_list):
+# 	file = open(f"{filename}.json", 'w')
+# 	for link in link_list:
+# 		file.write(link)
+# 	f.close()
+
+
+plain = OrderedDict()
+links = []
+
+for link in detail_of_nw_list:
+	links.append(link)
+
+plain['links'] = links
+
+link_json = json.dumps(plain, ensure_ascii=False, indent="\t")
+print(link_json)
+
+file = open("detail_link_list_of_naver.json", 'w')
+file.write(link_json)
+file.close()

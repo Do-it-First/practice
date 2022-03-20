@@ -1,6 +1,21 @@
 import requests
 from bs4 import BeautifulSoup
+import json
 
+f = open("/Users/yong-gilhan/Desktop/School/4-1/시종설/github/practice/for-gilhan/detail_link_list_of_naver.json", 'r')
+
+
+with open('/Users/yong-gilhan/Desktop/School/4-1/시종설/github/practice/for-gilhan/detail_link_list_of_naver.json') as json_file:
+    json_data = json.load(json_file)
+json_string = json_data["links"]
+print(type(json_string))
+for i in json_string:
+		print(i)
+		print(type(i))
+
+
+
+"""
 week = [
 	'mon',
 	'tue',
@@ -64,3 +79,4 @@ for col_inner in col_inners:
 		print(input())
 		print('*'*100)
 
+"""
