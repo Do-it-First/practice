@@ -3,19 +3,12 @@ from bs4 import BeautifulSoup
 import json
 
 f = open("/Users/yong-gilhan/Desktop/School/4-1/시종설/github/practice/for-gilhan/detail_link_list_of_naver.json", 'r')
-
-
 with open('/Users/yong-gilhan/Desktop/School/4-1/시종설/github/practice/for-gilhan/detail_link_list_of_naver.json') as json_file:
     json_data = json.load(json_file)
+
 json_string = json_data["links"]
-print(type(json_string))
-for i in json_string:
-		print(i)
-		print(type(i))
 
 
-
-"""
 week = [
 	'mon',
 	'tue',
@@ -26,57 +19,28 @@ week = [
 	'sun',
 ]
 
-html = requests.get('https://comic.naver.com/webtoon/weekday')
-soup = BeautifulSoup(html.text, 'html.parser')
-doc = soup.prettify()
-
-with open('NW.html', 'w') as html_file:
-    html_file.write(doc)
-
-col_inners = soup.find_all('div', class_='col_inner')
-
-
-print(type(col_inners))
-
-print("col_inners: ", type(col_inners))
-i = 0
-for col_inner in col_inners:
-		print("child:1 ", list(col_inner.children)[0])
-		print('!'*100)
-		print("child:2", list(col_inner.children)[1]) # @요 웹툰
-		print('!'*100)
-		print("child:3 ", list(col_inner.children)[2])
-		print('!'*100)
-		# print("child:4 ", list(col_inner.children)[3]) # ul
-		print("child: ", len(list(col_inner.children)[3])) # ul
-
-		for k in list(col_inner.children)[3]('a'):
-				if k.get('title') != None:
-					print('o'*80)
-					print(type(k))
-					print("title: ", k.get('title'))
-					print("link: ", 'https://comic.naver.com' + k.get('href'))
-				else:
-					print('!'*80)
-					print(type(k))
-					print("img: ", k.img['src'])
-					print(k)
-				print("^^"*30)
-
-
-		print('!'*100)
-		print("child:5 ", list(col_inner.children)[4])
-		print('!'*100)
-		
-		print("col_inner:", type(col_inner))
-
-		print("col_inner.h4: ", col_inner.h4.text) # @요 웹툰
-		i = i + 1
-		child = col_inner.descendants
-		print("type of child: ", type(child)) # generator
-		# print("child: ", list(child))
-		print(i)
+for link in json_string:
 		print(input())
-		print('*'*100)
+		html = requests.get(link)
+		soup = BeautifulSoup(html.text, 'html.parser')
 
-"""
+		wrt_nm = soup.find_all('span', class_='wrt_nm')
+		title_tag = soup.find_all('span', class_='title')
+		print("name: ", wrt_nm[0].text[7:])
+		print("title: ", title_tag[0].text)
+
+		p_tag = soup.find_all('p')
+
+		n = 0
+		full_contxt = ""
+		for contxt in p_tag[0]:
+				n = n + 1
+				if str(contxt) != '<br/>':
+						full_contxt = full_contxt + str(contxt) + "\n"
+
+		full_contxt = full_contxt[0:-1]
+		print("indroduction:" + "\n" + full_contxt)
+		genre_tag = soup.find_all('span', class_='genre')
+		print("genre: ", genre_tag[0].text)
+		age_tag = soup.find_all('span', class_='age')
+		print("age: ", age_tag[0].text)
