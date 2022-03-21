@@ -35,7 +35,7 @@ def get_information(link):
 		info["thumbnail"] = thumb_tag[0]['src']
 		info["detail_link"] = link
 		info["introduction"] = introduction
-		info["writer"] = wrt_nm[0].text[7:]
+		info["writer"] = wrt_nm[0].text[8:]
 		info["genre"] = genre_tag[0].text
 		info["age"] = age_tag[0].text
 
@@ -49,11 +49,13 @@ def get_wt_info(link_list):
 				info = get_information(link)
 				wt_list.append(info)
 		wt_list_json = json.dumps(wt_list, ensure_ascii=False, indent="\t")
+		print(wt_list_json)
 		return wt_list_json
 
-# link_list = link_list[0:3]
+link_list = link_list[0:3]
 
 naver_result = get_wt_info(link_list)
+print(naver_result)
 # print(type(naver_result))
 # print(naver_result)
 # print(result)
