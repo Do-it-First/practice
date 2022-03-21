@@ -1,46 +1,59 @@
 import requests
 from bs4 import BeautifulSoup
 import json
+from collections import OrderedDict
 
 f = open("/Users/yong-gilhan/Desktop/School/4-1/시종설/github/practice/for-gilhan/detail_link_list_of_naver.json", 'r')
 with open('/Users/yong-gilhan/Desktop/School/4-1/시종설/github/practice/for-gilhan/detail_link_list_of_naver.json') as json_file:
     json_data = json.load(json_file)
 
-json_string = json_data["links"]
+link_list = json_data["links"]
 
+def get_information(link):
 
-week = [
-	'mon',
-	'tue',
-	'wed',
-	'thu',
-	'fri',
-	'sat',
-	'sun',
-]
+		info = OrderedDict()
 
-for link in json_string:
-		print(input())
 		html = requests.get(link)
 		soup = BeautifulSoup(html.text, 'html.parser')
 
 		wrt_nm = soup.find_all('span', class_='wrt_nm')
+		thumb_tag = soup.find_all('div', class_='thumb')[0].find_all('img')
 		title_tag = soup.find_all('span', class_='title')
-		print("name: ", wrt_nm[0].text[7:])
-		print("title: ", title_tag[0].text)
 
 		p_tag = soup.find_all('p')
-
-		n = 0
-		full_contxt = ""
+		introduction = ""
 		for contxt in p_tag[0]:
-				n = n + 1
 				if str(contxt) != '<br/>':
-						full_contxt = full_contxt + str(contxt) + "\n"
+						introduction = introduction + str(contxt) + "\n"
 
-		full_contxt = full_contxt[0:-1]
-		print("indroduction:" + "\n" + full_contxt)
+		introduction = introduction[0:-1]
 		genre_tag = soup.find_all('span', class_='genre')
-		print("genre: ", genre_tag[0].text)
 		age_tag = soup.find_all('span', class_='age')
-		print("age: ", age_tag[0].text)
+
+		info["day"] = link[-3:]
+		info["title"] = title_tag[0].text
+		info["thumbnail"] = thumb_tag[0]['src']
+		info["detail_link"] = link
+		info["introduction"] = introduction
+		info["writer"] = wrt_nm[0].text[7:]
+		info["genre"] = genre_tag[0].text
+		info["age"] = age_tag[0].text
+
+		return info
+
+
+def get_wt_info(link_list):
+
+		wt_list = []
+		for link in link_list:
+				info = get_information(link)
+				wt_list.append(info)
+		wt_list_json = json.dumps(wt_list, ensure_ascii=False, indent="\t")
+		return wt_list_json
+
+# link_list = link_list[0:3]
+
+naver_result = get_wt_info(link_list)
+# print(type(naver_result))
+# print(naver_result)
+# print(result)

@@ -1,7 +1,7 @@
 {
 	"Naver": [
 		{
-			"weeks": "월",
+			"day": "월",
 			"title": "참교육",
 			"thumbnail": "https://shared-comic.pstatic.net/thumb/webtoon/758037/thumbnail/thumbnail_IMAG10_a2297504-4912-4c7e-a5a8-524d6fc77103.jpg",
 			"detail_link": "/webtoon/list?titleId=758037&weekday=mon",
