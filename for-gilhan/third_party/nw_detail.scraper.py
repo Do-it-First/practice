@@ -41,7 +41,6 @@ def get_information(link):
 
 		return info
 
-
 def get_wt_info(link_list):
 
 		wt_list = []
@@ -56,6 +55,3 @@ link_list = link_list[0:3]
 
 naver_result = get_wt_info(link_list)
 print(naver_result)
-# print(type(naver_result))
-# print(naver_result)
-# print(result)
