@@ -12,8 +12,6 @@ def namuwiki_crawl(workbook, file_name, url, sheet):
 
     #웹툰 정보
     webtoon_genre_a = '//*[@id="wd8ZpUELU"]/article/div[4]/div/div/div/div/div/div[6]/div/div/div/div/div/div/div/div/div/div[6]/div[1]/div/div/table/tbody/tr[3]/td[2]/div/a'  
-    #webtoon_genre_b = '//*[@id="wd8ZpUELU"]/article/div[4]/div/div/div/div/div/div[6]/div/div/div/div/div/div/div/div/div/div[6]/div[1]/div/div[3]/table/tbody/tr[3]/td[2]/div/a'
-    #webtoon_check_genre의 xpath 요일별로 다를 수도 있다. 확인해보자
     webtoon_genre_b = '//*[@id="wd8ZpUELU"]/article/div[4]/div/div/div/div/div/div[6]/div/div/div/div/div/div/div/div/div/div[6]/div[1]/div/div[3]/table/tbody/tr[3]/td[2]/div/a'
     webtoon_genre_c = '//*[@id="wd8ZpUELU"]/article/div[4]/div/div/div/div/div/div[6]/div/div/div/div/div/div/div/div/div/div[6]/div[1]/div/div[2]/table/tbody/tr[3]/td[2]/div/a'
     webtoon_check_genre = '//*[@id="wd8ZpUELU"]/article/div[4]/div/div/div/div/div/div[6]/div/div/div/div/div/div/div/div/div/div[6]/div[1]/div/div/table/tbody/tr[3]/td[1]/div/strong/span'
