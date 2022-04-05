@@ -6,7 +6,7 @@ from openpyxl import load_workbook, Workbook
 
 
 
-chromedriver = "C:\manna\chromedriver.exe"
+chromedriver = "C:\hanna\practice\for-hanna\chromedriver.exe"
 driver = webdriver.Chrome(chromedriver)
 url = "https://namu.wiki/w/%EB%84%A4%EC%9D%B4%EB%B2%84%20%EC%9B%B9%ED%88%B0/%EC%97%B0%EC%9E%AC%20%EB%AA%A9%EB%A1%9D"
 driver.get(url)
