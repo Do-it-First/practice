@@ -1,3 +1,5 @@
+## deprecated
+
 import requests
 from bs4 import BeautifulSoup
 import json
@@ -59,7 +61,7 @@ def save_one_wt(information):
 				webtoon[info] = information[info]
 		return webtoon # => orderedDict
 
-def save_prod_list():
+def save_prod_list(information):
 
 		prod_list = []
 		for prod in range(3):
@@ -71,13 +73,13 @@ def save_prod_list():
 		# print('='*80)
 		return processed_prod_list
 
-def save_naver_wt():
+def save_naver_wt(information):
 		webtoon = OrderedDict()
-		webtoon['Naver'] = json.loads(save_prod_list())
+		webtoon['Naver'] = json.loads(save_prod_list(information))
 		webtoon = json.dumps(webtoon, ensure_ascii=False, indent="\t")
 		return webtoon
 
-print("here: ", save_naver_wt())
+print("here: ", save_naver_wt(information))
 
 # a_prod = json.dumps(dict, ensure_ascii=False, indent="\t")
 

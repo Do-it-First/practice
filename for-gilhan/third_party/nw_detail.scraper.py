@@ -9,6 +9,9 @@ with open('/Users/yong-gilhan/Desktop/School/4-1/시종설/github
 
 link_list = json_data["links"]
 
+# make sample
+# link_list = link_list[0:3]
+
 def get_information(link):
 
 		info = OrderedDict()
@@ -48,10 +51,17 @@ def get_wt_info(link_list):
 				info = get_information(link)
 				wt_list.append(info)
 		wt_list_json = json.dumps(wt_list, ensure_ascii=False, indent="\t")
-		print(wt_list_json)
+		# print(wt_list_json)
 		return wt_list_json
 
-link_list = link_list[0:3]
+def save_naver_wt(link_list):
+		webtoon = OrderedDict()
+		webtoon['Naver'] = json.loads(get_wt_info(link_list))
+		webtoon = json.dumps(webtoon, ensure_ascii=False, indent="\t")
+		file = open("information_of_naver.json", 'w')
+		file.write(webtoon)
+		file.close()
 
-naver_result = get_wt_info(link_list)
-print(naver_result)
+		return webtoon
+
+save_naver_wt(link_list)
