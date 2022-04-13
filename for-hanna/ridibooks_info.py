@@ -101,6 +101,13 @@ total_value = ""
 introduction_value = ""
 writer_value = ""
 
+sheet['B1'] = "title"
+sheet['C1'] = "thumbnail"
+sheet['D1'] = "detail_link"
+sheet['E1'] = "introduction"
+sheet['F1'] = "writer"
+sheet['G1'] = "genre"
+
 for jj in range(2, len(title_thumbnail)+2):
     sheet['B' + str(jj)] = key_list[jj-2]
     sheet['B' + str(jj)].font = Font(name="나눔고딕", color="000000")
