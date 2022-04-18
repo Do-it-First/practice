@@ -16,7 +16,6 @@ title_detail_link = {} #상세페이지
 title_writer = {} #작가
 title_keyword = {} #이 책의 키워드
 title_introduction = {} #작품 소개
-title_list = []
 
 for href in soup.find("div", class_ = "event_detail_wrapper").find_all('h3'):
     href_f = href.find("a")
@@ -42,7 +41,6 @@ for url in url_list:
 
     if title is not None:
         title = soup_url.select_one('#page_detail > div.detail_wrap > div.detail_body_wrap > section > article.detail_header.trackable > div.header_info_wrap > div.info_title_wrap > h3').text
-        title_list.append(title)
        
         #detail_link, 중복 불허
         title_detail_link[title] = url
